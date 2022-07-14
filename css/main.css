@@ -1,0 +1,42 @@
+*,
+*:after,
+*:before {
+    box-sizing: border-box;
+}
+h1 {
+    font-style: italic;
+    padding: 25px 50px; 
+    background: rgb(150, 139, 139)
+}
+.cards {
+    margin: 50px 0;
+    padding: 0;
+    list-style: none;
+}
+.cards > li {
+    padding: 0 16px;
+    display: inline-block;
+    vertical-align: top;
+    margin-right: -4px;
+    width: calc(100% / 3);
+    background: white;
+}
+.card {
+    background: rgb(180, 88, 251);
+    border-radius: 16px;
+    box-shadow: 2px 2px 8px black;
+    overflow: hidden;
+}
+.card_visual {
+    display: block;
+    margin: 0 0 25px;
+}
+.card_content {
+    padding: 0 25px 25px;
+
+}
+img {
+    display: block;
+    width: 100%;
+    vertical-align: middle;
+}
