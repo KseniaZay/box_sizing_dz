@@ -3,40 +3,57 @@
 *:before {
     box-sizing: border-box;
 }
+body {
+    background-color: blueviolet;
+}
 h1 {
+    padding: 20px 40px;
+    margin: 0;
+    text-align: center;
     font-style: italic;
-    padding: 25px 50px; 
-    background: rgb(150, 139, 139)
+    font-size: 70px;
+}
+h2 {
+    font-style: italic; 
+    font-weight: 300;
+    padding: 20px 40px; 
+    margin: 0;
+    text-align: center;
+    font-size: 30px;
 }
 .cards {
-    margin: 50px 0;
+    margin-bottom: 10px;
     padding: 0;
     list-style: none;
+    vertical-align: top;
 }
 .cards > li {
-    padding: 0 16px;
+    padding: 16px;
     display: inline-block;
     vertical-align: top;
     margin-right: -4px;
     width: calc(100% / 3);
-    background: white;
+    background: blueviolet;
 }
 .card {
-    background: rgb(180, 88, 251);
-    border-radius: 16px;
-    box-shadow: 2px 2px 8px black;
+    background: white;
+    border-radius: 18px;
+    box-shadow: 3px 3px 9px black;
     overflow: hidden;
 }
-.card_visual {
+.card_visual { 
     display: block;
     margin: 0 0 25px;
 }
 .card_content {
-    padding: 0 25px 25px;
-
+    padding: 0 20px 20px;
+    font-family: Arial, Helvetica, sans-serif;
 }
 img {
     display: block;
     width: 100%;
-    vertical-align: middle;
+   vertical-align: middle;
+}
+footer {
+    padding: 20px 40px;
 }
